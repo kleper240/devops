@@ -25,6 +25,12 @@ podman container start <nom_du_conteneur>
 # Exemple :
 podman container start mon_premier_conteneur
 ```
+### revenir dans un contenur stope en mode inetractif
+```bash
+# 1 Sur le serveur DISTANT
+podman container start <nom ou ID>
+podman container exec -it <nom ou ID>
+```
 
 ### Arrêter et supprimer
 ```bash
