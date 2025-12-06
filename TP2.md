@@ -18,6 +18,13 @@ podman container ls -a # Tous les conteneurs (stoppés aussi)
 podman ps # Version courte
 podman ps -a # Tous avec version courte
 ```
+### Redémarrer un conteneur spécifique
+```bash
+# Sur le serveur DISTANT
+podman container start <nom_du_conteneur>
+# Exemple :
+podman container start mon_premier_conteneur
+```
 
 ### Arrêter et supprimer
 ```bash
